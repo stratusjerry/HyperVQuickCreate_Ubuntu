@@ -105,7 +105,7 @@
     {
       "name": "Ubuntu 26.04 LTS",
       "publisher": "Canonical Group Ltd",
-      "lastUpdated": "2026-05-05T01:08:00+02:00",
+      "lastUpdated": "2026-07-28T01:08:00+02:00",
       "version": "26.04 LTS",
       "locale": "en-US",
       "description": [
@@ -124,7 +124,7 @@
       },
       "disk": {
         "uri": "https://partner-images.canonical.com/hyper-v/desktop/resolute/current/ubuntu-resolute-hyperv-amd64v3-ubuntu-desktop-hyperv.vhdx.zip",
-        "hash": "sha256:34a7e4b4560e8a1cfebc2bda89bc8d6b1ca87be01c70eacb83c52b97f472df32",
+        "hash": "sha256:5345597e3bab95061f73e73630010484911af2512e12ea494a88cc520fcab3c3",
         "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
       },
       "logo": {
