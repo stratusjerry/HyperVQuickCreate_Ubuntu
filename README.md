@@ -7,5 +7,14 @@ Usage:
 3. Set its value to the following 2 lines:
 
 https://go.microsoft.com/fwlink/?linkid=851584
-https://raw.githubusercontent.com/ppfoong/HyperVQuickCreate_Ubuntu/refs/heads/main/HyperV_UbuntuGallery.json
+https://raw.githubusercontent.com/stratusjerry/HyperVQuickCreate_Ubuntu/refs/heads/main/HyperV_UbuntuGallery.json
+
+Alternatively, run the following in an elevated PowerShell session:
+
+```powershell
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization" -Name "GalleryLocations" -Value @(
+    "https://go.microsoft.com/fwlink/?linkid=851584",
+    "https://raw.githubusercontent.com/stratusjerry/HyperVQuickCreate_Ubuntu/refs/heads/main/HyperV_UbuntuGallery.json"
+) -Type MultiString
+```
 
