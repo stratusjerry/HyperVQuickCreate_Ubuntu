@@ -1,0 +1,264 @@
+{ "images": [ 
+     {
+      "name":  "Windows 10 MSIX packaging environment",
+        "publisher": "Microsoft Corporation",
+        "lastUpdated": "2022-05-11T12:00:00Z",
+        "version":  "10.0.18363",
+        "locale":    "en-US",
+        "description": [
+             "The MSIX Packaging Tool enables you to update existing Win32 application installers to the MSIX format. Simply launch MSIX Packaging Tool from start menu to get started. ",
+             "\r\n\r\n",
+             "To learn more about MSIX, visit aka.ms/MSIX.   ",
+             "\r\n\r\n",
+             "The license terms for the Windows 10 VMs supersede any conflicting Windows license terms.    ",
+             "\r\n\r\n",
+             "See https://aka.ms/windowsdevelopervirtualmachineeula for any additional details.  ",
+             "\r\n\r\n",
+             "",
+        ],
+      "config": {
+      "secureBoot": "true",
+      },
+      "requirements": { "diskSpace": "170000000"},
+      "disk": {
+        "uri": "https://download.microsoft.com/download/5/4/c/54cf292f-a9e3-47d3-9b4d-5659dc1c6189/MSIX Packaging Tool 10182019.zip",
+        "hash": "sha256:09C50382D496C5DF2C96034EB69F20D456B25308B3F672257D55FD8202DDF84B",
+        "archiveRelativePath": "127gb__Image-Evl_Win10_001.vhdx",
+        },
+      "logo": {
+        "uri": "https://download.microsoft.com/download/0/5/6/0563C53B-BF2C-4E18-BE30-CC4B788CE68F/Windows10_Logo.png",
+        "hash": "sha256:F0AD5F761003FF19A739FD4D6F9723D11ED34C543A0C0B6A821D93185B65A453",
+      },
+      "symbol": {
+        "uri": "https://download.microsoft.com/download/0/5/6/0563C53B-BF2C-4E18-BE30-CC4B788CE68F/Windows10_Symbol.png",
+        "hash": "sha256:4eb5a4e58f69b8ce2725ea4b2aee9466deadb9990e273882ba04d767b4b10f6b",
+      },
+      "thumbnail": {
+        "uri": "https://download.microsoft.com/download/0/3/2/0327C921-CA4B-44C6-9D0F-D7AB38E8A847/AppPackage_Blue_256x.png",
+        "hash": "sha256:82381FBD11CCE3778D921362C1D2E33587290B6D87D6E02D68DEF0B8F4AF23D8",
+      },
+      "details": [
+            {
+            "name": "Edition",
+            "value": "Windows 10 Enterprise",
+            },
+              {
+            "name": "Copyright",
+            "value": "Copyright (c) Microsoft Corporation. All rights reserved.",
+              },
+              {
+            "name": "License",
+            "value": "Evaluation: https://aka.ms/windowsdevelopervirtualmachineeula",
+            },
+      ]
+    }
+,
+     {
+      "name":  "Ubuntu 18.04 LTS",
+        "publisher": "Canonical Group Ltd",
+        "lastUpdated": "2022-06-14T09:34:46+02:00",
+        "version":  "18.04 LTS",
+        "locale":    "en-US",
+        "description": [
+             "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+             "\r\n\r\n",
+             "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+             "\r\n\r\n",
+             "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions.",
+        ],
+      "config": {
+      "secureBoot": "false",
+      "enhancedSessionTransportType": "HvSocket",
+      },
+      "requirements": { "diskSpace": "1600041774"},
+      "disk": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/current/ubuntu-bionic-hyperv-amd64-ubuntu-desktop-hyperv.vhdx.zip",
+        "hash": "sha256:49b943bb20dc320c10577b3204aedfe1c471351877d849f866119b748b775078",
+        "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
+        },
+      "logo": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_logo.png",
+        "hash": "sha256:336689A74C41848C7B1A09384DB0E06DDAE747FE554B774DD2CF9382537AB457",
+      },
+      "symbol": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_symbol.png",
+        "hash": "sha256:D53CCE48671403029CB1C4C25510428436118AC920A19CC7DD272506F5B9CD24",
+      },
+      "thumbnail": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84",
+      },
+      "details": [
+              {
+            "name": "License",
+            "value": "https://www.ubuntu.com/licensing",
+            },
+              {
+            "name": "",
+            "value": "Bionic Beaver",
+            },
+              {
+            "name": "",
+            "value": "18.04 LTS",
+            }
+      ]
+    }
+,
+     {
+      "name":  "Ubuntu 20.04 LTS",
+        "publisher": "Canonical Group Ltd",
+        "lastUpdated": "2022-06-14T09:34:47+02:00",
+        "version":  "20.04 LTS",
+        "locale":    "en-US",
+        "description": [
+             "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+             "\r\n\r\n",
+             "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+             "\r\n\r\n",
+             "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions.",
+        ],
+      "config": {
+      "secureBoot": "false",
+      "enhancedSessionTransportType": "HvSocket",
+      },
+      "requirements": { "diskSpace": "1600041774"},
+      "disk": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/focal/release/current/ubuntu-focal-hyperv-amd64-ubuntu-desktop-hyperv.vhdx.zip",
+        "hash": "sha256:774ca63101dc421c1dabd68f4cb89ad11374ca4cbd8ecc337429281ffd8cbad0",
+        "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
+        },
+      "logo": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_logo.png",
+        "hash": "sha256:336689A74C41848C7B1A09384DB0E06DDAE747FE554B774DD2CF9382537AB457",
+      },
+      "symbol": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_symbol.png",
+        "hash": "sha256:D53CCE48671403029CB1C4C25510428436118AC920A19CC7DD272506F5B9CD24",
+      },
+      "thumbnail": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84",
+      },
+      "details": [
+              {
+            "name": "License",
+            "value": "https://www.ubuntu.com/licensing",
+            },
+              {
+            "name": "",
+            "value": "Focal Fossa",
+            },
+              {
+            "name": "",
+            "value": "20.04 LTS",
+            }
+      ]
+    }
+,
+     {
+      "name":  "Ubuntu 22.04 LTS",
+        "publisher": "Canonical Group Ltd",
+        "lastUpdated": "2022-06-14T09:34:48+02:00",
+        "version":  "22.04 LTS",
+        "locale":    "en-US",
+        "description": [
+             "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+             "\r\n\r\n",
+             "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+             "\r\n\r\n",
+             "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions.",
+        ],
+      "config": {
+      "secureBoot": "false",
+      "enhancedSessionTransportType": "HvSocket",
+      },
+      "requirements": { "diskSpace": "1600041774"},
+      "disk": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/jammy/release/current/ubuntu-jammy-hyperv-amd64-ubuntu-desktop-hyperv.vhdx.zip",
+        "hash": "sha256:eb6b904aa40f7214bdeade25e7b189db8c25a021b711677c1049d61867ff20cf",
+        "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
+        },
+      "logo": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_logo.png",
+        "hash": "sha256:336689A74C41848C7B1A09384DB0E06DDAE747FE554B774DD2CF9382537AB457",
+      },
+      "symbol": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_symbol.png",
+        "hash": "sha256:D53CCE48671403029CB1C4C25510428436118AC920A19CC7DD272506F5B9CD24",
+      },
+      "thumbnail": {
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/bionic/release/20190829/ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84",
+      },
+      "details": [
+              {
+            "name": "License",
+            "value": "https://www.ubuntu.com/licensing",
+            },
+              {
+            "name": "",
+            "value": "Jammy Jellyfish",
+            },
+              {
+            "name": "",
+            "value": "22.04 LTS",
+            }
+      ]
+    }
+,
+     {
+      "name":  "Windows 11 dev environment",
+        "publisher": "Microsoft",
+        "lastUpdated": "2024-07-25T12:00:00Z",
+        "version":  "10.0.22621",
+        "locale":    "en-US",
+        "description": [
+             "This evaluation copy of Windows 11 21H2 will enable you to try out Windows 11 development with an evaluation copy of Windows.  ",
+             "\r\n\r\n",
+             "This evaluation copy will expire after a pre-determined amount of time.  ",
+             "\r\n\r\n",
+             "The license terms for the Windows 11 VMs supersede any conflicting Windows license terms.    ",
+             "\r\n\r\n",
+             "By using the virtual machine, you are accepting the EULAs for all the installed products.  ",
+             "\r\n\r\n",
+             "Please see https://aka.ms/windowsdevelopervirtualmachineeula for more information.  ",
+        ],
+      "config": {
+      "secureBoot": "true",
+      },
+      "requirements": { "diskSpace": "20000000000"},
+      "disk": {
+        "uri": "https://download.microsoft.com/download/c/2/7/c275218e-b8d9-4adc-9344-ac3ee87349c3/WinDev2407Eval.HyperV.zip",
+        "hash": "sha256:B546C32894785DBAAC07543D913BDE9D6598972F76A440D6B5C00B2E73739684",
+        "archiveRelativePath": "WinDev2407Eval.vhdx",
+        },
+      "logo": {
+        "uri": "https://download.microsoft.com/download/c/f/5/cf5b587c-98bf-4cfc-9844-a2a7d8c96d83/Windows11_Logo.png",
+        "hash": "sha256:5E583CE95340BE9FF1CB56FD39C5DDDF3B3341B93E417144D361C3F29A5A7395",
+      },
+      "symbol": {
+        "uri": "https://download.microsoft.com/download/c/f/5/cf5b587c-98bf-4cfc-9844-a2a7d8c96d83/Windows11_Symbol.png",
+        "hash": "sha256:E3AEE6BA9114467BBF2C92CA83BE84949F709A13350A6A10F21779FF83343748",
+      },
+      "thumbnail": {
+        "uri": "https://download.microsoft.com/download/c/f/5/cf5b587c-98bf-4cfc-9844-a2a7d8c96d83/Windows11_Thumbnail.png",
+        "hash": "sha256:E7BF96E18754D71E41B32A8EDCDE9E2F1DBAF47C7CD05D6DE0764CD4E4EA5066",
+      },
+      "details": [
+            {
+            "name": "Edition",
+            "value": "Windows 11 Enterprise",
+            },
+              {
+            "name": "Copyright",
+            "value": "Copyright (c) Microsoft Corporation. All rights reserved.",
+              },
+              {
+            "name": "License",
+            "value": "By using the virtual machine, you are accepting the EULAs for all the installed products.",
+            },
+      ]
+    }
+,
+]
+}
