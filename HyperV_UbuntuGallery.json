@@ -124,7 +124,7 @@
       },
       "disk": {
         "uri": "https://partner-images.canonical.com/hyper-v/desktop/resolute/current/ubuntu-resolute-hyperv-amd64v3-ubuntu-desktop-hyperv.vhdx.zip",
-        "hash": "sha256:232be0a45ab25c614d8ea528af3250b3b19aeac98f24a9101ed3998711476f1e",
+        "hash": "sha256:ef2b480283bd0b6b6c5ce19c3cdb849d24eb723c00cf17cedc90534dbcb9e35d",
         "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
       },
       "logo": {
