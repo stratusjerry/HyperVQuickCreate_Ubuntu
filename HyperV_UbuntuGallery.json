@@ -123,8 +123,8 @@
         "diskSpace": "1600041774"
       },
       "disk": {
-        "uri": "https://partner-images.canonical.com/hyper-v/desktop/resolute/20260812/ubuntu-resolute-hyperv-amd64v3-ubuntu-desktop-hyperv.vhdx.zip",
-        "hash": "sha256:ae9bb3de9a9b3523da011c5a8fae643019271aa888c3f0d30c3f97e162b44cd4",
+        "uri": "https://partner-images.canonical.com/hyper-v/desktop/resolute/20260813/ubuntu-resolute-hyperv-amd64v3-ubuntu-desktop-hyperv.vhdx.zip",
+        "hash": "sha256:e8dc8a3f60f42f488899d44cbc2c80d11508ff306f8fe2c39684bee855c57812",
         "archiveRelativePath": "livecd.ubuntu-desktop-hyperv.vhdx",
       },
       "logo": {
